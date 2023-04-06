@@ -8,18 +8,30 @@
     <body>
         <header class="main-header">
             <!-- главная шапка сайта -->
-            <nav>
+            <nav class="main-header-nav">
                 <a class="logo" href="#">
                     <img src="#">
                 </a>
 
-                <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Photos and videos</a></li>
-                    <li><a href="#">Articles</a></li>
-                    <li><a href="#">some another information</a></li>
-                    <li><a href="#">blog</a></li>
-                    <li><a href="#">Sign Up</a></li>
+                <ul class="site-navigation">
+                    <li class="site-navigation-item">
+                        <a href="#">About</a>
+                    </li>
+                    <li class="site-navigation-item">
+                        <a href="#">Photos and videos</a>
+                    </li>
+                    <li class="site-navigation-item">
+                        <a href="#">Articles</a>
+                    </li>
+                    <li class="site-navigation-item">
+                        <a href="#">some another information</a>
+                    </li>
+                    <li class="site-navigation-item">
+                        <a href="#">blog</a>
+                    </li>
+                    <li class="site-navigation-item">
+                        <a href="#">Sign Up</a>
+                    </li>
                 </ul> 
                 <form>
                     <!--web search string--> <p>Search</p>
@@ -27,11 +39,16 @@
             </nav>
         </header>
         <main>
-            <h1>Site of lone philosopher</h1>
-            <!-- основная часть  -->
-            <section>Maybe there is will be a corusel of images with links</section>
-            <section><p>At this section will be links on articles</p>
-                
+            <section class="hero">
+                <h1>Site of lone philosopher</h1>
+                <img src="" alt="фон основого блока"> <!-- тут будет фон -->
+                <p>Уголок независимого мышления</p>
+            </section>
+
+
+    
+            <section class="article"><p>Тут будут ссылки на статьи</p>
+                <h2>Статьи, которые могут быть вам интересны</h2>
                     <article> my article
                         <img src="" alt="photo of article">
                         <button type="button">click on me</button>
@@ -41,10 +58,24 @@
                     
                 <aside>THere is will be a social web links</aside>
             </section>
-            <section>And this will be section with links on parthners sites. Maybe there is will be a link to my second web-site with web-design
+
+
+
+            <section class="mind"> 
+                <h2>Мысль дня</h2>
+                <article>
+                    <p>Сегодня было <b>полнолуние</b>, пришла на ум мысль, что <i>"всё таки я завишу от фаз луны, не зря же я болел лунатизмом".</i> Видимо данная болезь снова возвращается ко мне.</p>
+                </article>
+            </section>
+
+            <section class="promo">
+                <h2>возможно партнёры и коллеги</h2>
+                <p>And this will be section with links on parthners sites. Maybe there is will be a link to my second web-site with web-design</p>
                 <blockquote>I know this user, he is a very curious </blockquote>
             </section>
+
         </main>
+
         <footer class="main-footer">
             <!-- подвал сайта -->
 
