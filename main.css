@@ -1,0 +1,18 @@
+body {
+    background-color: bisque;
+
+    
+}
+.main-header {
+    background-color: aqua;
+}
+
+
+
+nav  {
+    display: flex;
+    justify-content: center;
+
+}
+
+
